@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kalkulator spalania</title>
+
+
+</head>
+<body>
+<div class="wrapper">
+	<div class="header">
+		<h1>GasCalc</h1>
+		<p>Sprawdź spalanie auta i koszty przejazdu</p>
+	</div>
+
+	<div class="btn-gas">
+		<h2>Kalkulator średniego spalania na 100km</h2>
+		<label for="gas">Spalone paliwo w litrach</label>
+		<input type="number" id = "gas">
+
+		<label for="km">Ilość przejechanych km</label>
+		<input type="number" id = 'km'>
+
+		<label for="gas-price">Cena litra paliwa (opcjonalnie)</label>
+		<input type="number" id='gas-price'>
+
+		<button class="gas-count">Oblicz</button>
+		<p class="gas-error"></p>
+		<p class="gas-info">Średnie spalania auta na 100km wynosi: <span class="gas-value"></span> l.</p>
+		<p class="option"></p>
+		
+
+
+	</div>
+	<div class="btn-trip">
+		<h2>Kalkulator kosztów przejechania trasy</h2>
+		<label for="trip">Długość przejechanej trasy w km</label>
+		<input type="number" id = "trip">
+
+		<label for="fuel-cons">Średnie spalanie w litrach na 100km</label>
+		<input type="number" id = 'fuel-cons'>
+
+		<label for="fuel-price">Cena litra paliwa (opcjonalnie)</label>
+		<input type="number" id='fuel-price'>
+
+		<button class="cost-count">Oblicz</button>
+		<p class="fuel-error"></p>
+		<p class="fuel-info"></p>
+		
+
+	</div>
+	
+
+</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
