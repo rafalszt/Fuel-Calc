@@ -120,8 +120,13 @@ button:hover {
 
 .gas-info {
 	display: none;
+	font-size: 16px;
+	margin-top: 20px;
 }
 
+.gas-value {
+	font-weight: 700;
+}
 
 .btn-trip {
 	padding: 40px 20px;
